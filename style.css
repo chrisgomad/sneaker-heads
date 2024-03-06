@@ -27,3 +27,56 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+body{
+    background-image: url(https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg);
+    background-size: cover;
+    font-family: 'Copperplate','Papyrus','fantasy';
+}
+#row1-section1 img{
+    height: 400px;
+    width: 600px;
+}
+
+#row2-section1 img{
+    height: 400px;
+    width: 600px;
+    padding-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #6d00fb;
+    background: linear-gradient(to bottom, #74c9f1, #fb4040);
+    border-radius: 10px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px #dbff39;
+}
+
+#row1-section2 {
+    display:inline-block;
+    background-color: #74c9f1; /* Light blue background */
+    color: #fff; /* White text color */
+    border: 2px solid #fb4040; /* Red border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding for better spacing */
+    width: auto;
+}
+
+#row1-section2 p {
+    margin: 0; 
+}
+
+#row2-section2 {
+    display: inline-block;
+    background-color: #74c9f1; /* Light blue background */
+    color: #fff; /* White text color */
+    border: 2px solid #fb4040; /* Red border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding for better spacing */
+    width: auto;
+}
+
+#row2-section2 p {
+    margin: 0; 
+}
+
